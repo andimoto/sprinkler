@@ -5,9 +5,11 @@ Small garden sprinkler project
 This Model for OpenSCAD is not finished and has not been printed by me.
 
 remix of https://www.thingiverse.com/thing:14028
+and this https://www.thingiverse.com/thing:3764039
 
 
-![sprinkler](sprinkler.png)
+![sprinkler](sprinkler_gardena_connector.png)
+![sprinkler](sprinkler_hose_connector.png)
 <br>
 <br>
 <br>
