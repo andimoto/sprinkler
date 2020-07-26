@@ -61,14 +61,27 @@ spHighCorr = (end) ? 2 : 0;
 /* translate([0,0,1]) cylinder(r=r-2,h=sprinklerHight-2,$fn=polyRes); */
 translate([0,0,spHighCorr]) cylinder(r=5,h=sprinklerHight-spHighCorr,$fn=polyRes);
 
-translate([0,4,40])
-rotate([-90,0,0]) cylinder(r=rSprinklerHole, h=20, $fn=polyRes);
+/*sprinkler holes*/
+#translate([0,0,40])
+rotate([-90,0,0]) cylinder(r=rSprinklerHole, h=15, $fn=polyRes);
 
-translate([0,4,30])
-rotate([-90,0,0]) cylinder(r=rSprinklerHole, h=20, $fn=polyRes);
+#translate([2,0,35])
+rotate([-90,0,0]) cylinder(r=rSprinklerHole, h=15, $fn=polyRes);
 
-translate([0,4,20])
-rotate([-90,0,0]) cylinder(r=rSprinklerHole, h=20, $fn=polyRes);
+#translate([-2,0,35])
+rotate([-90,0,0]) cylinder(r=rSprinklerHole, h=15, $fn=polyRes);
+
+#translate([0,0,30])
+rotate([-90,0,0]) cylinder(r=rSprinklerHole, h=15, $fn=polyRes);
+
+#translate([2,0,25])
+rotate([-90,0,0]) cylinder(r=rSprinklerHole, h=15, $fn=polyRes);
+
+#translate([-2,0,25])
+rotate([-90,0,0]) cylinder(r=rSprinklerHole, h=15, $fn=polyRes);
+
+#translate([0,0,20])
+rotate([-90,0,0]) cylinder(r=rSprinklerHole, h=15, $fn=polyRes);
 
 /* cylinder(r=10, h=10, center=true); */
 /* translate([0,-30,-30]) cube([60,60,120]); */
